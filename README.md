@@ -52,8 +52,11 @@ function(incidentName='API Outage')
 
 - [Incident Response](/templates/incident-response)
 - [Root Cause Analysis](templates/root-cause-analysis)
-- [Incident Analysis / Postmortem](templates/incident-analysis)
+- [Incident Analysis](templates/incident-analysis)
+- [Postmortem](templates/postmortem)
 - [Meeting Notes](templates/meeting-notes)
+- [Kubernetes Sample](templates/kubernetes-sample)
+- [Trigger Example](templates/trigger-example)
 
 Want to contribute or request a template for another use case?
 [Open an issue!](https://github.com/fiberplane/templates/issues/new/choose)
