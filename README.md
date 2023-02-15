@@ -20,7 +20,7 @@ shared [fiberplane repository](fp-templates).
 
 The [Fiberplane CLI](https://github.com/fiberplane/fp) is the recommended way to
 interact with templates (see the
-[docs](https://github.com/fiberplane/fp#templates) or run `fp help templates`).
+[docs](https://docs.fiberplane.com/docs/working-with-templates) or run `fp help templates`).
 
 ## Structure of a Template
 
