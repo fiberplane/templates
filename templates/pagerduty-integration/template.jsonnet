@@ -17,7 +17,7 @@ function(
   .addCells([
     c.h1(pagerduty_event.data.title + ' (PagerDuty incident)'), // you can access specific webhook payload items by using the dot notation
     c.text('A PagerDuty incident was triggered. The incident ID is:'),
-    c.code(incident_id, 'text'),
+    c.code(pagerduty_event.data.id, 'text'),
 
     c.text('Service ' + pagerduty_event.data.service.summary + ' has a problem!'),
     c.text(fmt.link('See on PagerDuty', pagerduty_event.data.html_url)),
