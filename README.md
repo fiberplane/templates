@@ -20,7 +20,7 @@ shared [fiberplane repository](fp-templates).
 
 The [Fiberplane CLI](https://github.com/fiberplane/fp) is the recommended way to
 interact with templates (see the
-[docs](https://docs.fiberplane.com/docs/working-with-templates) or run `fp help templates`).
+[docs](https://fiberplane.com/docs/templates/) or run `fp help templates`).
 
 ## Structure of a Template
 
@@ -57,6 +57,7 @@ function(incidentName='API Outage')
 - [Meeting Notes](templates/meeting-notes)
 - [Kubernetes Sample](templates/kubernetes-sample)
 - [Trigger Example](templates/trigger-example)
+- [PagerDuty Integration](templates/pagerduty-integration)
 
 Want to contribute or request a template for another use case?
 [Open an issue!](https://github.com/fiberplane/templates/issues/new/choose)
